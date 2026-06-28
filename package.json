@@ -1,0 +1,10 @@
+{
+  "name": "tutor-finder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "install:client": "cd client && npm install",
+    "seed": "cd server && python db/seed.py"
+  }
+}
